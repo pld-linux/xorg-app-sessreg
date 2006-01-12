@@ -1,12 +1,12 @@
 Summary:	sessreg application
 Summary(pl):	Aplikacja sessreg
 Name:		xorg-app-sessreg
-Version:	0.99.2
+Version:	1.0.0
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/sessreg-%{version}.tar.bz2
-# Source0-md5:	7ffe219a450071bc4054b4cd9d8454e1
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/sessreg-%{version}.tar.bz2
+# Source0-md5:	15c8032bbf5197e8fb5d071d9500a880
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
