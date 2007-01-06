@@ -14,13 +14,10 @@ BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	sed >= 4.0
 BuildRequires:	xorg-proto-xproto-devel
 BuildRequires:	xorg-util-util-macros >= 1.1
+Provides:	sessreg
 Obsoletes:	X11-sessreg < 1:7.0.0
 Obsoletes:	XFree86-sessreg < 1:7.0.0
 Obsoletes:	sessreg < 1:7.0.0
-Provides:	sessreg
-Obsoletes:	X11-sessreg
-Obsoletes:	XFree86-sessreg
-Obsoletes:	sessreg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -35,7 +32,7 @@ xdm.
 %setup -q -n sessreg-%{version}
 
 # xproto is sufficient
-sed -i -e 's/ x11/ xproto/' configure.ac
+%{__sed} -i -e 's/ x11/ xproto/' configure.ac
 
 %build
 %{__aclocal}
