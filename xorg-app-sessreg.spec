@@ -1,5 +1,5 @@
 Summary:	sessreg application - manage utmp/wtmp entries for non-init clients
-Summary(pl):	Aplikacja sessreg - zarz±dzanie wpisami utmp/wtmp przez klientów innych ni¿ init
+Summary(pl.UTF-8):   Aplikacja sessreg - zarzÄ…dzanie wpisami utmp/wtmp przez klientÃ³w innych niÅ¼ init
 Name:		xorg-app-sessreg
 Version:	1.0.2
 Release:	4
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 sessreg is a simple program for managing utmp/wtmp entries for xdm
 sessions.
 
-%description -l pl
-sessreg to prosty program do zarz±dzania wpisami utmp/wtmp dla sesji
+%description -l pl.UTF-8
+sessreg to prosty program do zarzÄ…dzania wpisami utmp/wtmp dla sesji
 xdm.
 
 %prep
