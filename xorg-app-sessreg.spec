@@ -8,11 +8,11 @@ Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/sessreg-%{version}.tar.bz2
 # Source0-md5:	8c8fcda19f4cffe573d43ec9b8255f8e
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-proto-xproto-devel
-BuildRequires:	xorg-util-util-macros >= 1.3
+BuildRequires:	xorg-util-util-macros >= 1.4
 Provides:	sessreg
 Obsoletes:	X11-sessreg < 1:7.0.0
 Obsoletes:	XFree86-sessreg < 1:7.0.0
