@@ -1,12 +1,12 @@
 Summary:	sessreg application - manage utmp/wtmp entries for non-init clients
 Summary(pl.UTF-8):	Aplikacja sessreg - zarządzanie wpisami utmp/wtmp przez klientów innych niż init
 Name:		xorg-app-sessreg
-Version:	1.0.7
+Version:	1.0.8
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/sessreg-%{version}.tar.bz2
-# Source0-md5:	e99172cbd72700eeeae99f64632b5dc2
+# Source0-md5:	f548e389ff68424947b87785df6a321b
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
